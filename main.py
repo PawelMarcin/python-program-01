@@ -11,8 +11,11 @@
 #   -------------------------------------------------------------------------
 #
 #  utworzenie zmiennej string dla outputu:
-output = '{}:\tPozostala kwota kredytu: {}.\n\t To o {} mniej niz w poprzedm ' \
+output = '{} - {}:\tPozostala kwota kredytu: {}.\n\t\t To o {} mniej niz w poprzedm ' \
          'miesiacu.'
+#
+# utworzenie i zainicjowanie numeru kolejnego
+nr = 0
 
 #  przyjecie danych kredytu:
 wys_kredytu = float(input('Podaj wysokosc kredytu: '))
