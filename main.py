@@ -33,7 +33,204 @@ print('\n@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@')
 nr = 0
 
 nr += 1
+miesiac = input()
+inflacja = float(input())
+pozostaly_kredyt = (1 + (float(wys_oprocentowania) + inflacja) / 1200) * float(wys_kredytu) \
+                   - float(wys_stalej_raty)
+print('{} - {}:\tPozostala kwota kredytu: {} PLN.\n\t\t To o {} PLN mniej niz w poprzednim '
+      'miesiacu.'.format(nr,miesiac, pozostaly_kredyt, float(wys_kredytu) - pozostaly_kredyt))
+wys_kredytu = pozostaly_kredyt
 
+nr += 1
+miesiac = input()
+inflacja = float(input())
+pozostaly_kredyt = (1 + (float(wys_oprocentowania) + inflacja) / 1200) * float(wys_kredytu) \
+                   - float(wys_stalej_raty)
+print('{} - {}:\tPozostala kwota kredytu: {} PLN.\n\t\t To o {} PLN mniej niz w poprzednim '
+      'miesiacu.'.format(nr,miesiac, pozostaly_kredyt, wys_kredytu - pozostaly_kredyt))
+wys_kredytu = pozostaly_kredyt
+
+nr += 1
+miesiac = input()
+inflacja = float(input())
+pozostaly_kredyt = (1 + (float(wys_oprocentowania) + inflacja) / 1200) * float(wys_kredytu) \
+                   - float(wys_stalej_raty)
+print('{} - {}:\tPozostala kwota kredytu: {} PLN.\n\t\t To o {} PLN mniej niz w poprzednim '
+      'miesiacu.'.format(nr,miesiac, pozostaly_kredyt, float(wys_kredytu) - pozostaly_kredyt))
+wys_kredytu = pozostaly_kredyt
+
+nr += 1
+miesiac = input()
+inflacja = float(input())
+pozostaly_kredyt = (1 + (float(wys_oprocentowania) + inflacja) / 1200) * float(wys_kredytu) \
+                   - float(wys_stalej_raty)
+print('{} - {}:\tPozostala kwota kredytu: {} PLN.\n\t\t To o {} PLN mniej niz w poprzednim '
+      'miesiacu.'.format(nr,miesiac, pozostaly_kredyt, wys_kredytu - pozostaly_kredyt))
+wys_kredytu = pozostaly_kredyt
+
+nr += 1
+miesiac = input()
+inflacja = float(input())
+pozostaly_kredyt = (1 + (float(wys_oprocentowania) + inflacja) / 1200) * float(wys_kredytu) \
+                   - float(wys_stalej_raty)
+print('{} - {}:\tPozostala kwota kredytu: {} PLN.\n\t\t To o {} PLN mniej niz w poprzednim '
+      'miesiacu.'.format(nr,miesiac, pozostaly_kredyt, float(wys_kredytu) - pozostaly_kredyt))
+wys_kredytu = pozostaly_kredyt
+
+nr += 1
+miesiac = input()
+inflacja = float(input())
+pozostaly_kredyt = (1 + (float(wys_oprocentowania) + inflacja) / 1200) * float(wys_kredytu) \
+                   - float(wys_stalej_raty)
+print('{} - {}:\tPozostala kwota kredytu: {} PLN.\n\t\t To o {} PLN mniej niz w poprzednim '
+      'miesiacu.'.format(nr,miesiac, pozostaly_kredyt, wys_kredytu - pozostaly_kredyt))
+wys_kredytu = pozostaly_kredyt
+
+nr += 1
+miesiac = input()
+inflacja = float(input())
+pozostaly_kredyt = (1 + (float(wys_oprocentowania) + inflacja) / 1200) * float(wys_kredytu) \
+                   - float(wys_stalej_raty)
+print('{} - {}:\tPozostala kwota kredytu: {} PLN.\n\t\t To o {} PLN mniej niz w poprzednim '
+      'miesiacu.'.format(nr,miesiac, pozostaly_kredyt, float(wys_kredytu) - pozostaly_kredyt))
+wys_kredytu = pozostaly_kredyt
+
+nr += 1
+miesiac = input()
+inflacja = float(input())
+pozostaly_kredyt = (1 + (float(wys_oprocentowania) + inflacja) / 1200) * float(wys_kredytu) \
+                   - float(wys_stalej_raty)
+print('{} - {}:\tPozostala kwota kredytu: {} PLN.\n\t\t To o {} PLN mniej niz w poprzednim '
+      'miesiacu.'.format(nr,miesiac, pozostaly_kredyt, wys_kredytu - pozostaly_kredyt))
+wys_kredytu = pozostaly_kredyt
+
+nr += 1
+miesiac = input()
+inflacja = float(input())
+pozostaly_kredyt = (1 + (float(wys_oprocentowania) + inflacja) / 1200) * float(wys_kredytu) \
+                   - float(wys_stalej_raty)
+print('{} - {}:\tPozostala kwota kredytu: {} PLN.\n\t\t To o {} PLN mniej niz w poprzednim '
+      'miesiacu.'.format(nr,miesiac, pozostaly_kredyt, float(wys_kredytu) - pozostaly_kredyt))
+wys_kredytu = pozostaly_kredyt
+
+nr += 1
+miesiac = input()
+inflacja = float(input())
+pozostaly_kredyt = (1 + (float(wys_oprocentowania) + inflacja) / 1200) * float(wys_kredytu) \
+                   - float(wys_stalej_raty)
+print('{} - {}:\tPozostala kwota kredytu: {} PLN.\n\t\t To o {} PLN mniej niz w poprzednim '
+      'miesiacu.'.format(nr,miesiac, pozostaly_kredyt, wys_kredytu - pozostaly_kredyt))
+wys_kredytu = pozostaly_kredyt
+
+nr += 1
+miesiac = input()
+inflacja = float(input())
+pozostaly_kredyt = (1 + (float(wys_oprocentowania) + inflacja) / 1200) * float(wys_kredytu) \
+                   - float(wys_stalej_raty)
+print('{} - {}:\tPozostala kwota kredytu: {} PLN.\n\t\t To o {} PLN mniej niz w poprzednim '
+      'miesiacu.'.format(nr,miesiac, pozostaly_kredyt, float(wys_kredytu) - pozostaly_kredyt))
+wys_kredytu = pozostaly_kredyt
+
+nr += 1
+miesiac = input()
+inflacja = float(input())
+pozostaly_kredyt = (1 + (float(wys_oprocentowania) + inflacja) / 1200) * float(wys_kredytu) \
+                   - float(wys_stalej_raty)
+print('{} - {}:\tPozostala kwota kredytu: {} PLN.\n\t\t To o {} PLN mniej niz w poprzednim '
+      'miesiacu.'.format(nr,miesiac, pozostaly_kredyt, wys_kredytu - pozostaly_kredyt))
+wys_kredytu = pozostaly_kredyt
+
+nr += 1
+miesiac = input()
+inflacja = float(input())
+pozostaly_kredyt = (1 + (float(wys_oprocentowania) + inflacja) / 1200) * float(wys_kredytu) \
+                   - float(wys_stalej_raty)
+print('{} - {}:\tPozostala kwota kredytu: {} PLN.\n\t\t To o {} PLN mniej niz w poprzednim '
+      'miesiacu.'.format(nr,miesiac, pozostaly_kredyt, float(wys_kredytu) - pozostaly_kredyt))
+wys_kredytu = pozostaly_kredyt
+
+nr += 1
+miesiac = input()
+inflacja = float(input())
+pozostaly_kredyt = (1 + (float(wys_oprocentowania) + inflacja) / 1200) * float(wys_kredytu) \
+                   - float(wys_stalej_raty)
+print('{} - {}:\tPozostala kwota kredytu: {} PLN.\n\t\t To o {} PLN mniej niz w poprzednim '
+      'miesiacu.'.format(nr,miesiac, pozostaly_kredyt, wys_kredytu - pozostaly_kredyt))
+wys_kredytu = pozostaly_kredyt
+
+nr += 1
+miesiac = input()
+inflacja = float(input())
+pozostaly_kredyt = (1 + (float(wys_oprocentowania) + inflacja) / 1200) * float(wys_kredytu) \
+                   - float(wys_stalej_raty)
+print('{} - {}:\tPozostala kwota kredytu: {} PLN.\n\t\t To o {} PLN mniej niz w poprzednim '
+      'miesiacu.'.format(nr,miesiac, pozostaly_kredyt, float(wys_kredytu) - pozostaly_kredyt))
+wys_kredytu = pozostaly_kredyt
+
+nr += 1
+miesiac = input()
+inflacja = float(input())
+pozostaly_kredyt = (1 + (float(wys_oprocentowania) + inflacja) / 1200) * float(wys_kredytu) \
+                   - float(wys_stalej_raty)
+print('{} - {}:\tPozostala kwota kredytu: {} PLN.\n\t\t To o {} PLN mniej niz w poprzednim '
+      'miesiacu.'.format(nr,miesiac, pozostaly_kredyt, wys_kredytu - pozostaly_kredyt))
+wys_kredytu = pozostaly_kredyt
+
+nr += 1
+miesiac = input()
+inflacja = float(input())
+pozostaly_kredyt = (1 + (float(wys_oprocentowania) + inflacja) / 1200) * float(wys_kredytu) \
+                   - float(wys_stalej_raty)
+print('{} - {}:\tPozostala kwota kredytu: {} PLN.\n\t\t To o {} PLN mniej niz w poprzednim '
+      'miesiacu.'.format(nr,miesiac, pozostaly_kredyt, float(wys_kredytu) - pozostaly_kredyt))
+wys_kredytu = pozostaly_kredyt
+
+nr += 1
+miesiac = input()
+inflacja = float(input())
+pozostaly_kredyt = (1 + (float(wys_oprocentowania) + inflacja) / 1200) * float(wys_kredytu) \
+                   - float(wys_stalej_raty)
+print('{} - {}:\tPozostala kwota kredytu: {} PLN.\n\t\t To o {} PLN mniej niz w poprzednim '
+      'miesiacu.'.format(nr,miesiac, pozostaly_kredyt, wys_kredytu - pozostaly_kredyt))
+wys_kredytu = pozostaly_kredyt
+
+nr += 1
+miesiac = input()
+inflacja = float(input())
+pozostaly_kredyt = (1 + (float(wys_oprocentowania) + inflacja) / 1200) * float(wys_kredytu) \
+                   - float(wys_stalej_raty)
+print('{} - {}:\tPozostala kwota kredytu: {} PLN.\n\t\t To o {} PLN mniej niz w poprzednim '
+      'miesiacu.'.format(nr,miesiac, pozostaly_kredyt, float(wys_kredytu) - pozostaly_kredyt))
+wys_kredytu = pozostaly_kredyt
+
+nr += 1
+miesiac = input()
+inflacja = float(input())
+pozostaly_kredyt = (1 + (float(wys_oprocentowania) + inflacja) / 1200) * float(wys_kredytu) \
+                   - float(wys_stalej_raty)
+print('{} - {}:\tPozostala kwota kredytu: {} PLN.\n\t\t To o {} PLN mniej niz w poprzednim '
+      'miesiacu.'.format(nr,miesiac, pozostaly_kredyt, wys_kredytu - pozostaly_kredyt))
+wys_kredytu = pozostaly_kredyt
+
+nr += 1
+miesiac = input()
+inflacja = float(input())
+pozostaly_kredyt = (1 + (float(wys_oprocentowania) + inflacja) / 1200) * float(wys_kredytu) \
+                   - float(wys_stalej_raty)
+print('{} - {}:\tPozostala kwota kredytu: {} PLN.\n\t\t To o {} PLN mniej niz w poprzednim '
+      'miesiacu.'.format(nr,miesiac, pozostaly_kredyt, float(wys_kredytu) - pozostaly_kredyt))
+wys_kredytu = pozostaly_kredyt
+
+nr += 1
+miesiac = input()
+inflacja = float(input())
+pozostaly_kredyt = (1 + (float(wys_oprocentowania) + inflacja) / 1200) * float(wys_kredytu) \
+                   - float(wys_stalej_raty)
+print('{} - {}:\tPozostala kwota kredytu: {} PLN.\n\t\t To o {} PLN mniej niz w poprzednim '
+      'miesiacu.'.format(nr,miesiac, pozostaly_kredyt, wys_kredytu - pozostaly_kredyt))
+wys_kredytu = pozostaly_kredyt
+
+nr += 1
 miesiac = input()
 inflacja = float(input())
 pozostaly_kredyt = (1 + (float(wys_oprocentowania) + inflacja) / 1200) * float(wys_kredytu) \
