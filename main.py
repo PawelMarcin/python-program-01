@@ -22,7 +22,6 @@ nr = 0
 inflacja = float(0)
 pozostaly_kredyt = float(0)
 
-
 #  przyjecie danych kredytu:
 wys_kredytu = float(input('Podaj wysokosc kredytu: '))
 wys_oprocentowania = float(input('Podaj oprocentowanie ponad inflacje: '))
@@ -36,4 +35,220 @@ print('\n@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@')
 
 print('\nWersja 1.1')
 # wszystkie dane z pliku wersja_1_1.txt
-print('\n@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@')
+print('\n@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@\n')
+
+nr += 1
+miesiac = input()
+inflacja = float(input())
+pozostaly_kredyt = (1 + (inflacja + wys_oprocentowania) / 100) * wys_kredytu -\
+                   wys_stalej_raty
+print(output.format(nr, miesiac, pozostaly_kredyt, wys_kredytu -
+                    pozostaly_kredyt))
+wys_kredytu = pozostaly_kredyt
+
+nr += 1
+miesiac = input()
+inflacja = float(input())
+pozostaly_kredyt = (1 + (inflacja + wys_oprocentowania) / 100) * wys_kredytu -\
+                   wys_stalej_raty
+print(output.format(nr, miesiac, pozostaly_kredyt, wys_kredytu -
+                    pozostaly_kredyt))
+wys_kredytu = pozostaly_kredyt
+
+nr += 1
+miesiac = input()
+inflacja = float(input())
+pozostaly_kredyt = (1 + (inflacja + wys_oprocentowania) / 100) * wys_kredytu -\
+                   wys_stalej_raty
+print(output.format(nr, miesiac, pozostaly_kredyt, wys_kredytu -
+                    pozostaly_kredyt))
+wys_kredytu = pozostaly_kredyt
+
+nr += 1
+miesiac = input()
+inflacja = float(input())
+pozostaly_kredyt = (1 + (inflacja + wys_oprocentowania) / 100) * wys_kredytu -\
+                   wys_stalej_raty
+print(output.format(nr, miesiac, pozostaly_kredyt, wys_kredytu -
+                    pozostaly_kredyt))
+wys_kredytu = pozostaly_kredyt
+
+nr += 1
+miesiac = input()
+inflacja = float(input())
+pozostaly_kredyt = (1 + (inflacja + wys_oprocentowania) / 100) * wys_kredytu -\
+                   wys_stalej_raty
+print(output.format(nr, miesiac, pozostaly_kredyt, wys_kredytu -
+                    pozostaly_kredyt))
+wys_kredytu = pozostaly_kredyt
+
+nr += 1
+miesiac = input()
+inflacja = float(input())
+pozostaly_kredyt = (1 + (inflacja + wys_oprocentowania) / 100) * wys_kredytu -\
+                   wys_stalej_raty
+print(output.format(nr, miesiac, pozostaly_kredyt, wys_kredytu -
+                    pozostaly_kredyt))
+wys_kredytu = pozostaly_kredyt
+
+nr += 1
+miesiac = input()
+inflacja = float(input())
+pozostaly_kredyt = (1 + (inflacja + wys_oprocentowania) / 100) * wys_kredytu -\
+                   wys_stalej_raty
+print(output.format(nr, miesiac, pozostaly_kredyt, wys_kredytu -
+                    pozostaly_kredyt))
+wys_kredytu = pozostaly_kredyt
+
+nr += 1
+miesiac = input()
+inflacja = float(input())
+pozostaly_kredyt = (1 + (inflacja + wys_oprocentowania) / 100) * wys_kredytu -\
+                   wys_stalej_raty
+print(output.format(nr, miesiac, pozostaly_kredyt, wys_kredytu -
+                    pozostaly_kredyt))
+wys_kredytu = pozostaly_kredyt
+
+nr += 1
+miesiac = input()
+inflacja = float(input())
+pozostaly_kredyt = (1 + (inflacja + wys_oprocentowania) / 100) * wys_kredytu -\
+                   wys_stalej_raty
+print(output.format(nr, miesiac, pozostaly_kredyt, wys_kredytu -
+                    pozostaly_kredyt))
+wys_kredytu = pozostaly_kredyt
+
+nr += 1
+miesiac = input()
+inflacja = float(input())
+pozostaly_kredyt = (1 + (inflacja + wys_oprocentowania) / 100) * wys_kredytu -\
+                   wys_stalej_raty
+print(output.format(nr, miesiac, pozostaly_kredyt, wys_kredytu -
+                    pozostaly_kredyt))
+wys_kredytu = pozostaly_kredyt
+
+nr += 1
+miesiac = input()
+inflacja = float(input())
+pozostaly_kredyt = (1 + (inflacja + wys_oprocentowania) / 100) * wys_kredytu -\
+                   wys_stalej_raty
+print(output.format(nr, miesiac, pozostaly_kredyt, wys_kredytu -
+                    pozostaly_kredyt))
+wys_kredytu = pozostaly_kredyt
+
+nr += 1
+miesiac = input()
+inflacja = float(input())
+pozostaly_kredyt = (1 + (inflacja + wys_oprocentowania) / 100) * wys_kredytu -\
+                   wys_stalej_raty
+print(output.format(nr, miesiac, pozostaly_kredyt, wys_kredytu -
+                    pozostaly_kredyt))
+wys_kredytu = pozostaly_kredyt
+
+nr += 1
+miesiac = input()
+inflacja = float(input())
+pozostaly_kredyt = (1 + (inflacja + wys_oprocentowania) / 100) * wys_kredytu -\
+                   wys_stalej_raty
+print(output.format(nr, miesiac, pozostaly_kredyt, wys_kredytu -
+                    pozostaly_kredyt))
+wys_kredytu = pozostaly_kredyt
+
+nr += 1
+miesiac = input()
+inflacja = float(input())
+pozostaly_kredyt = (1 + (inflacja + wys_oprocentowania) / 100) * wys_kredytu -\
+                   wys_stalej_raty
+print(output.format(nr, miesiac, pozostaly_kredyt, wys_kredytu -
+                    pozostaly_kredyt))
+wys_kredytu = pozostaly_kredyt
+
+nr += 1
+miesiac = input()
+inflacja = float(input())
+pozostaly_kredyt = (1 + (inflacja + wys_oprocentowania) / 100) * wys_kredytu -\
+                   wys_stalej_raty
+print(output.format(nr, miesiac, pozostaly_kredyt, wys_kredytu -
+                    pozostaly_kredyt))
+wys_kredytu = pozostaly_kredyt
+
+nr += 1
+miesiac = input()
+inflacja = float(input())
+pozostaly_kredyt = (1 + (inflacja + wys_oprocentowania) / 100) * wys_kredytu -\
+                   wys_stalej_raty
+print(output.format(nr, miesiac, pozostaly_kredyt, wys_kredytu -
+                    pozostaly_kredyt))
+wys_kredytu = pozostaly_kredyt
+
+nr += 1
+miesiac = input()
+inflacja = float(input())
+pozostaly_kredyt = (1 + (inflacja + wys_oprocentowania) / 100) * wys_kredytu -\
+                   wys_stalej_raty
+print(output.format(nr, miesiac, pozostaly_kredyt, wys_kredytu -
+                    pozostaly_kredyt))
+wys_kredytu = pozostaly_kredyt
+
+nr += 1
+miesiac = input()
+inflacja = float(input())
+pozostaly_kredyt = (1 + (inflacja + wys_oprocentowania) / 100) * wys_kredytu -\
+                   wys_stalej_raty
+print(output.format(nr, miesiac, pozostaly_kredyt, wys_kredytu -
+                    pozostaly_kredyt))
+wys_kredytu = pozostaly_kredyt
+
+nr += 1
+miesiac = input()
+inflacja = float(input())
+pozostaly_kredyt = (1 + (inflacja + wys_oprocentowania) / 100) * wys_kredytu -\
+                   wys_stalej_raty
+print(output.format(nr, miesiac, pozostaly_kredyt, wys_kredytu -
+                    pozostaly_kredyt))
+wys_kredytu = pozostaly_kredyt
+
+nr += 1
+miesiac = input()
+inflacja = float(input())
+pozostaly_kredyt = (1 + (inflacja + wys_oprocentowania) / 100) * wys_kredytu -\
+                   wys_stalej_raty
+print(output.format(nr, miesiac, pozostaly_kredyt, wys_kredytu -
+                    pozostaly_kredyt))
+wys_kredytu = pozostaly_kredyt
+
+nr += 1
+miesiac = input()
+inflacja = float(input())
+pozostaly_kredyt = (1 + (inflacja + wys_oprocentowania) / 100) * wys_kredytu -\
+                   wys_stalej_raty
+print(output.format(nr, miesiac, pozostaly_kredyt, wys_kredytu -
+                    pozostaly_kredyt))
+wys_kredytu = pozostaly_kredyt
+
+nr += 1
+miesiac = input()
+inflacja = float(input())
+pozostaly_kredyt = (1 + (inflacja + wys_oprocentowania) / 100) * wys_kredytu -\
+                   wys_stalej_raty
+print(output.format(nr, miesiac, pozostaly_kredyt, wys_kredytu -
+                    pozostaly_kredyt))
+wys_kredytu = pozostaly_kredyt
+
+nr += 1
+miesiac = input()
+inflacja = float(input())
+pozostaly_kredyt = (1 + (inflacja + wys_oprocentowania) / 100) * wys_kredytu -\
+                   wys_stalej_raty
+print(output.format(nr, miesiac, pozostaly_kredyt, wys_kredytu -
+                    pozostaly_kredyt))
+wys_kredytu = pozostaly_kredyt
+
+nr += 1
+miesiac = input()
+inflacja = float(input())
+pozostaly_kredyt = (1 + (inflacja + wys_oprocentowania) / 100) * wys_kredytu -\
+                   wys_stalej_raty
+print(output.format(nr, miesiac, pozostaly_kredyt, wys_kredytu -
+                    pozostaly_kredyt))
+wys_kredytu = pozostaly_kredyt
