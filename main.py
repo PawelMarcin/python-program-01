@@ -24,4 +24,5 @@ print('\n@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@')
 #-----------------------------------------------------------------------------
 # wersja 1.0, wszystkie dane z pliku, wzor na obliczenia wg danych z zadania,
 # calkiem od czapy
+print('wersja 1.0')
 
