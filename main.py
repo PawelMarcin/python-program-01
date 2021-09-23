@@ -10,6 +10,10 @@
 #   w poprzednim miesiacu."
 #   -------------------------------------------------------------------------
 #
+#  utworzenie zmiennej string dla outputu:
+output = '{}:\tPozostala kwota kredytu: {}.\n\t To o {} mniej niz w poprzedm ' \
+         'miesiacu.'
+
 #  przyjecie danych kredytu:
 wys_kredytu = float(input('Podaj wysokosc kredytu: '))
 wys_oprocentowania = float(input('Podaj oprocentowanie ponad inflacje: '))
