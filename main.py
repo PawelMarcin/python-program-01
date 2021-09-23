@@ -17,6 +17,12 @@ output = '{} - {}:\tPozostala kwota kredytu: {}.\n\t\t To o {} mniej niz w poprz
 # utworzenie i zainicjowanie numeru kolejnego
 nr = 0
 
+#  Utworzenie i zainicjowanie zmiennych potrzebnych do obliczenia pozostalego
+#  kredytu
+inflacja = float(0)
+pozostaly_kredyt = float(0)
+
+
 #  przyjecie danych kredytu:
 wys_kredytu = float(input('Podaj wysokosc kredytu: '))
 wys_oprocentowania = float(input('Podaj oprocentowanie ponad inflacje: '))
