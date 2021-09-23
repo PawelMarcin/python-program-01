@@ -11,9 +11,12 @@
 #   -------------------------------------------------------------------------
 #
 #  przyjecie danych kredytu:
-wys_kredytu = input('Podaj wysokosc kredytu: ')
-wys_oprocentowania = input('Podaj oprocentowanie ponad inflacje: ')
-wys_stalej_raty = input('Podaj wysokosc raty: ')
+# wys_kredytu = input('Podaj wysokosc kredytu: ')
+# wys_oprocentowania = input('Podaj oprocentowanie ponad inflacje: ')
+# wys_stalej_raty = input('Podaj wysokosc raty: ')
+wys_kredytu = input()
+wys_oprocentowania = input()
+wys_stalej_raty = input()
 
 # wypisanie danych startowych kredytu
 print('\n@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@')
