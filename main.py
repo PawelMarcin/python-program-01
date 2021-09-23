@@ -24,8 +24,24 @@ print('\nINFO:\n  Twoj kredyt: {} PLN\n  Oprocentowanie: {}%\n  Rata: {} PLN'
       .format(wys_kredytu, wys_oprocentowania, wys_stalej_raty))
 print('\n@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@')
 
-#-----------------------------------------------------------------------------
+# -----------------------------------------------------------------------------
 # wersja 1.0, wszystkie dane z pliku, wzor na obliczenia wg danych z zadania,
 # calkiem od czapy
 print('wersja 1.0')
+print('\n@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@')
 
+miesiac = input()
+inflacja = float(input())
+pozostaly_kredyt = (1 + (float(wys_oprocentowania) + inflacja) / 1200) * float(wys_kredytu) \
+                   - float(wys_stalej_raty)
+print('{}:\tPozostala kwota kredytu: {} PLN.\n\t To o {} PLN mniej niz w poprzednim '
+      'miesiacu.'.format(miesiac, pozostaly_kredyt, float(wys_kredytu) - pozostaly_kredyt))
+wys_kredytu = pozostaly_kredyt
+
+miesiac = input()
+inflacja = float(input())
+pozostaly_kredyt = (1 + (float(wys_oprocentowania) + inflacja) / 1200) * float(wys_kredytu) \
+                   - float(wys_stalej_raty)
+print('{}:\tPozostala kwota kredytu: {} PLN.\n\t To o {} PLN mniej niz w poprzednim '
+      'miesiacu.'.format(miesiac, pozostaly_kredyt, wys_kredytu - pozostaly_kredyt))
+wys_kredytu = pozostaly_kredyt
