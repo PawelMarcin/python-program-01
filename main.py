@@ -20,3 +20,8 @@ print('\n@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@')
 print('\nINFO:\n  Twoj kredyt: {} PLN\n  Oprocentowanie: {}%\n  Rata: {} PLN'
       .format(wys_kredytu, wys_oprocentowania, wys_stalej_raty))
 print('\n@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@')
+
+#-----------------------------------------------------------------------------
+# wersja 1.0, wszystkie dane z pliku, wzor na obliczenia wg danych z zadania,
+# calkiem od czapy
+
