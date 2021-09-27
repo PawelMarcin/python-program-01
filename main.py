@@ -11,7 +11,7 @@
 #   -------------------------------------------------------------------------
 #
 #  utworzenie zmiennej string dla outputu:
-output = '{} - {}:\n\t\tPozostala kwota kredytu: {}.\n\t\t To o {} mniej niz w poprzedm ' \
+output = '{} - {}:\n\t\tPozostala kwota kredytu: {}.\n\t\tTo o {} mniej niz w poprzedm ' \
          'miesiacu.'
 #
 # utworzenie i zainicjowanie numeru kolejnego
@@ -36,6 +36,20 @@ print('\n@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@')
 
 # otwarcie pliku 'wersja_2_0.txt'
 dane = open('wersja_2_0.txt','r')
+
+# nr kolejny, tylko do wypisywania danych
+nr = 0
+
+# przejscie w petli przez plik z danymi i wypisywanie wartosci
+for miesiac in dane:
+    miesiac = miesiac.strip()
+    inflacja = float(dane.readline())
+    nr += 1
+    pozostaly_kredyt = (1 + (wys_oprocentowania + inflacja) / 1200)\
+                       * wys_kredytu - wys_stalej_raty
+    print(output.format(nr, miesiac, round(pozostaly_kredyt,2),
+                        round(wys_kredytu - pozostaly_kredyt,2)))
+    wys_kredytu = pozostaly_kredyt
 
 # zamkniecie pliku 'wersja_2_0.txt'
 dane.close()
