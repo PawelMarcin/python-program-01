@@ -33,3 +33,9 @@ print('\n@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@')
 print('\nINFO:\n  Twoj kredyt: {} PLN\n  Oprocentowanie: {}%\n  Rata: {} PLN'
       .format(wys_kredytu, wys_oprocentowania, wys_stalej_raty))
 print('\n@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@')
+
+# otwarcie pliku 'wersja_2_0.txt'
+dane = open('wersja_2_0.txt','r')
+
+# zamkniecie pliku 'wersja_2_0.txt'
+dane.close()
