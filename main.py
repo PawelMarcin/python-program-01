@@ -11,16 +11,16 @@
 #   -------------------------------------------------------------------------
 #
 #  utworzenie zmiennej string dla outputu:
-output = '{} - {}:\tPozostala kwota kredytu: {}.\n\t\t To o {} mniej niz w poprzedm ' \
+output = '{} - {}:\n\t\tPozostala kwota kredytu: {}.\n\t\t To o {} mniej niz w poprzedm ' \
          'miesiacu.'
 #
 # utworzenie i zainicjowanie numeru kolejnego
-nr = 0
+# nr = 0  # - to juz nie jest potrzebne
 
 #  Utworzenie i zainicjowanie zmiennych potrzebnych do obliczenia pozostalego
 #  kredytu
-inflacja = float(0)
-pozostaly_kredyt = float(0)
+# inflacja = float(0) # - inicjalizacja zmiennej nie jest potrzebna
+# pozostaly_kredyt = float(0) # - inicjalizacja zmiennej nie jest potrzebna
 
 
 #  przyjecie danych kredytu:
